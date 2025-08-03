@@ -4,8 +4,8 @@ Projeto de análise de sentimentos utilizando manipulação de strings
 Funcionalidades:
 1. Analisa sentimento geral de todo o texto (Questão 1)
 2. Analisa sentimento de parágrafos específicos (Questão 2)
-3. Analisa sentimento da sentença mais longa (Questão 3)
-4. Analisa sentimento da sentença mais curta (Questão 4)
+3. Analisa sentimento da sentença com mais caracteres(Questão 3)
+4. Analisa sentimento da sentença com mais sentenças (Questão 4)
 
 Regras de polaridade:
 - Positiva: Diferença positiva > 3 OU apenas palavras positivas
@@ -210,8 +210,8 @@ void identif_questoes(int a) {
     printf("-----------------------QUESTOES------------------------\n"
            "1. Analisa sentimento geral de todo o texto\n"
             "2. Analisa sentimento de paragrafos especificos\n"
-            "3. Analisa sentimento da sentenca mais longa\n"
-            "4. Analisa sentimento da sentenca mais curta\n");
+            "3. Analisa sentimento da sentenca com mais caracteres\n"
+            "4. Analisa sentimento da sentenca com mais palavras\n");
     printf("-------------------------------------------------------\n");
     printf("Digite a questao escolhida: ");
     for (int i = 0; i < a; i++) {
